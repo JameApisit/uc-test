@@ -1,0 +1,25 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+      "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+      "trailing-comma": [ false ],
+      "no-console": [true, "warning"],
+      "variable-name": [
+        true,
+        "ban-keywords",
+        "check-format",
+        "allow-leading-underscore", 
+        "allow-pascal-case",
+        "allow-snake-case"
+      ],
+      "radix": false,
+      "max-classes-per-file": [
+        "error",
+        { "ignoreExpressions": true, "max": 2 }
+      ]
+  },
+  "rulesDirectory": []
+}
